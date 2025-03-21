@@ -17,7 +17,7 @@ const Hero = () => {
             <Playlist />
             {/* <Canvas className="hero-canvas">
                 <Model 
-                    modelUrl="models/bluetooth_music_boombox/scene.gltf"
+                    modelUrl="models/cow/scene.gltf"
                     modelScale={[0.19, 0.19, 0.19]}
                     modelPosition={[-0.3, -0.3, 0]}
                     modelRotation={[0, 5.5, -0.3]}

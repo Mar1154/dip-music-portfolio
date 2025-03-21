@@ -1,10 +1,10 @@
 .playlist {
     background-color: rgba(26, 26, 26, 0.5);
     backdrop-filter: blur(12px);
+    border: 2px solid #555555;
     position: absolute;
     top: 96px;
     left: 128px;
-    border: 2px solid #555555;
     border-radius: 24px;
     padding: 24px 12px;
 
@@ -30,6 +30,14 @@
     margin: 0;
     font-size: 1.2rem;
     font-weight: 500;
+}
+
+.playlist__body {
+    height: 480px;
+    padding-right: 8px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #373737 rgba(26, 26, 26, 0);
 }
 
 .song {
@@ -63,7 +71,7 @@
 }
 
 .song-details {
-    width: 180px;
+    width: 120px;
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -81,11 +89,11 @@
 }
 
 .play-button {
+    width: 48px;
     background: none;
     margin-bottom: 4px;
     border: none;
-    padding: 12px;
-    color: white;
+    color: var(--white-1);
     font-size: 1.5rem;
     cursor: pointer;
 }

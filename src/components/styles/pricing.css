@@ -1,3 +1,41 @@
 .pricing {
-    height: 100vh;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 16px;
+}
+
+.pricing__header {
+    background-color: green;
+    margin-bottom: 32px;
+    font-size: 1.5rem;
+}
+
+.pricing-cards {
+    background-color: blue;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    background-color: yellow;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.card__header h3 {
+    font-size: 1.2rem;
+}
+
+.card__header span {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.card__body {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
